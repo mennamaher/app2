@@ -1,0 +1,19 @@
+
+<h2 class=" text-center bg-danger-subtle">Recommendation</h2>
+
+<div class=" container">
+  <div class="row">
+    @for (c of recData; track $index) {
+
+      <div class=" col-lg-4 ">
+        <h4 class=" text-center">{{c.cName}}</h4>
+        <div class=" imgg position-relative">
+          <img [src]="c.imgg" class=" w-100 rounded-3 " alt="1">
+
+        </div>
+      </div>
+      }
+  </div>
+</div>
+
+

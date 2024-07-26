@@ -1,0 +1,15 @@
+@import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+.line1{
+  width: 10rem;
+  height: 5px;
+  background-color: #2C3E50;
+}
+.btn{
+  background-color: #1ABC9C;
+}
+
+
+.form-control:focus{
+  box-shadow: unset !important;
+}
